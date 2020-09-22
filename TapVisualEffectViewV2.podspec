@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapVisualEffectViewV2"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "UIVisualEffectView wrapper with support of Reduce Transparency Accessibility feature."
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "TapVisualEffectViewV2/TapVisualEffectViewV2/Resources/**/*.{xib}"
-
+  spec.resource_bundle         = { 'TapVisualEffectViewResources' => 'TapVisualEffectViewV2/TapVisualEffectViewV2/Resources/*.{xib}' }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
