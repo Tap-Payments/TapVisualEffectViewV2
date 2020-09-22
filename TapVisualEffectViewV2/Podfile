@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TapVisualEffectViewV2' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TapVisualEffectViewV2
+	pod 'TapNibViewV2'
+	pod 'TapAdditionsKitV2'
+end
