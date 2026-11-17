@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 import class    TapNibViewV2.TapNibView
 import struct   UIKit.UIAccessibility.UIAccessibility
 import class    UIKit.UIColor.UIColor
